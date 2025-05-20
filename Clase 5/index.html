@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>etiquetas multimedias</title>
+
+</head>  
+<body>
+    <h1>Multimedia</h1>
+    <h2>audios</h2>
+    <!-- <audio src="./assets/audios/nombre del audio" controls loop></audio> -->
+    <h2>video </h2>
+    <!-- <video src=".assets/videos/lluvia.mp4" controls loop></video> -->
+    <h2>iframe</h2>
+    <iframe src="https://docs.google.com/spreadsheets/d/1z-7B9bBz1cRpae0t5FCImjE_-54HzzdnR3wPXUSkfS8/edit?pli=1&gid=0#gid=0" frameborder="10" width="400px" height="400px"></iframe>
+    <iframe src="https://it.wikipedia.org/wiki/Franco_Colapinto" frameborder="10" width="400px"height="400px"></iframe>
+    <iframe src="http://127.0.0.1:5500/Clase%204/index.html"frameborder="10" width="400px" height="400px"></iframe> </iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/M4HQm3KbybM?si=_xpbdNfM_hmgHQ_j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d180337.7725124907!2d7.505284209692107!3d45.07002048934684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886d126418be25%3A0x8903f803d69c77bf!2sTorino%20TO!5e0!3m2!1sit!2sit!4v1747760700356!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <h2>Formularios</h2>
+    <form>
+        <div> 
+            <label for="identidad">Indica tu nombre</label>
+            <input type="text" name="identidad" placeholder="Jonh Doop" required maxlength="30">
+        </div>
+        <div>
+            <label for="Clave"> Indica tu clave</label>
+            <input type="password" name="password" id="Clave" required>
+        </div>
+        <div>
+            <label for="email">Indica tu email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="nacimiento">Indica tu fecha de nacimiento</label>
+            <input type="date" name="nacimiento" id="nacimiento" required>
+        </div>
+        <div>
+            <label for="pais">seleciona su pais</label>
+            <select  name="pais" id="pais">
+                <option value="AR">Argentina</option>
+                <option value="FR">Francia</option>
+                <option value="NO" selected disabled>No seleccionado</option>
+            </select>
+        </div>
+        <div>
+            <label for="mensaje">Dejanos tu mensaje:</label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mi consulta es..."></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Confirmar">
+        </div>
+    </form>
+
+</body>
+</html>
