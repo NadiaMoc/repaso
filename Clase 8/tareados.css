@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.padre{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(253, 173, 189);
+    display: flex;
+    padding: 70px;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.padre .hijo{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(214, 8, 49);
+    border-radius: 15px;
+
+}
